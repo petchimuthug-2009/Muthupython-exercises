@@ -145,9 +145,7 @@ while True:
 
     if x == 'ans':
         v1 = [float(i) for i in q]
-        j = len(q)
-        w = j - 1
-        a = v1[w]
+        a = v1[-1]
         k = input('enter the operater (+,-,*,/,root(),POWER()):')
         h1 = input('num,fun:')
 
